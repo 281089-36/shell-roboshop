@@ -5,7 +5,7 @@ Description=Shipping Service
 User=roboshop
 // highlight-start
 Environment=CART_ENDPOINT=cart.thulasi.fun:8080
-Environment=DB_HOST=mysql.thulasi.fun
+Environment=DB_HOST=172.31.24.214
 // highlight-end
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
